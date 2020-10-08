@@ -67,7 +67,7 @@ const vowels = ["a", "e", "i", "o", "u"];
 function containsVowel(text) {
   let count = 0;
   text.toLowerCase;
-  while (count <= text.length) {
+  while (count < text.length) {
     if (vowels.includes(text[count])) {
       document.body.innerHTML += "</br>" + true + "</br>";
     } else {
@@ -77,7 +77,7 @@ function containsVowel(text) {
   }
 }
 containsVowel("alpha");
-console.log(containsVowel);
+containsVowel("hmph");
 
 /** KATA 06 ⮕ tip
  ***
